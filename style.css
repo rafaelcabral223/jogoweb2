@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1a2e;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#game-canvas {
+  position: fixed;
+  /* JS sets width/height/left/top to fill screen maintaining 2:1 ratio */
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
